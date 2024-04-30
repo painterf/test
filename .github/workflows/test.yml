@@ -1,0 +1,11 @@
+name: Simulate Event
+
+on:
+  workflow_dispatch:  
+
+jobs:
+  simulate_event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Event
+        run: echo "Simulating event triggered"
